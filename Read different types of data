@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();      // read integer
+        sc.nextLine();             // consume newline
+        String S = sc.nextLine();  // read string
+
+        System.out.println(N * 2); // print N x 2
+        System.out.println(S);     // print string
+    }
+}
